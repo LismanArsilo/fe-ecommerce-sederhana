@@ -1,0 +1,20 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "sweetalert2/dist/sweetalert2.min.css";
+
+/* Mengatur warna latar belakang dan warna track scrollbar */
+::-webkit-scrollbar {
+  width: 5px; /* Lebar scrollbar */
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #3498db; /* Warna thumb scrollbar */
+  border-radius: 1rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ecf0f1; /* Warna track scrollbar */
+}
